@@ -184,7 +184,6 @@
 				<artifactId>com.springsource.bundlor.maven</artifactId>
 				<version>1.0.0.M2</version>
 				<configuration>
-					<outputManifest>E:\Interesting\test/META-INF/MANIFEST.MF</outputManifest>
 					<failOnWarnings>false</failOnWarnings>
 					<removeNullHeaders>true</removeNullHeaders>
 					<manifestHeaders><![CDATA[Bundle-ManifestVersion: 2
