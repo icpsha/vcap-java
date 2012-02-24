@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.sap.cpi.stager
+Bundle-SymbolicName: com.sap.cpi.stager
+Bundle-Version: 1.0.0
+Bundle-Classpath: lib/auto-reconfiguration-0.6.2.jar
+Bundle-Description: Auto Staging for cloud foundry
+Fragment-Host: org.springframework.bundle.osgi.extender
+Import-Package: com.mongodb,com.mysql.jdbc,javax.servlet,javax.sql,org
+ .apache.commons.dbcp,org.apache.commons.logging,org.apache.tomcat.dbc
+ p.dbcp,org.postgresql,org.springframework.amqp.rabbit.connection,org.
+ springframework.beans,org.springframework.beans.factory,org.springfra
+ mework.beans.factory.config,org.springframework.beans.factory.support
+ ,org.springframework.beans.factory.xml,org.springframework.context,or
+ g.springframework.core,org.springframework.core.env,org.springframewo
+ rk.core.io.support,org.springframework.data.authentication,org.spring
+ framework.data.mongodb,org.springframework.data.mongodb.core,org.spri
+ ngframework.jdbc.datasource,org.springframework.util,org.w3c.dom
